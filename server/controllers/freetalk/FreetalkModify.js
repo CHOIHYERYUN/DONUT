@@ -4,9 +4,11 @@ const { isAuthorized } = require('../tokenfunction');
 
 module.exports = async (req, res) => {
   // 프리톡 작성 내용 수정 article
+  // patch
+  console.log(req.body);
   const authorization = isAuthorized(req);
   const freetalkInfo = await freetalk.findOne({
-    where: {title: freetalk.id}
+    where: {title: freetalk.title}
   });
 
   if(!authorization) {
