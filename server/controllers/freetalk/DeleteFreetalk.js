@@ -10,6 +10,8 @@ module.exports = (req, res) => {
   } else {
     // delete 메소드 사용(client)
     // destroy(sequelize method)
-    
+    freetalk.destroy({where: {title: req.body.title}});
+
+    res.status(201).json({message: 'Delete Success!'});
   }
 };
