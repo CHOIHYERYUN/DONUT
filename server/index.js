@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false })); // 주소형식으로 들어온 요청 파싱 옵션 지정
 app.use(
   cors({
-    origin: [process.env.ORIGIN],
+    origin: ['https://localhost:3000'],
     credentials: true,
     methods: ["GET", "POST", "OPTIONS", "DELETE", "PATCH"],
   })
@@ -51,9 +51,6 @@ app.post("/DetailLplist", controllers.DetailLplist);
 
 app.post("/LikeLplist", controllers.LikeLplist);
 app.post("/AddLpPrice", controllers.AddLpPrice);
-
-//console.log(controllers.Kakao.getToken);
-//app.get('/Kakao', controllers.Kakao.getUserInfo);
 
 app.post("/AddLplist", controllers.AddLplist);
 app.post("/AddRecentPrice", controllers.AddRecentPrice);
