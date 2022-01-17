@@ -10,7 +10,8 @@ module.exports = (req, res) => {
   } else {
     // delete 메소드 사용(client)
     // destroy(sequelize method)
-    freetalk.destroy({where: {title: req.body.title}});
+    // 같은 제목이 있을 수 있으므로 id로 변경(freetalk의 고유 id임)
+    freetalk.destroy({where: {id: req.body.id}});
 
     res.status(201).json({message: 'Delete Success!'});
   }
