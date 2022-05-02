@@ -41,16 +41,9 @@ https://app.gitbook.com/invite/CDR1SteahUJC4tcBFX1v/bG5R333DiSgRMOZIdHjP
 
 # We Are👉🏻 
 <details>
-<summary>이정후</summary>
-
-- Team Leader
-- Position: Front-End
-</details>
-
-<details>
 <summary>이현주</summary>
 
-- Team Member
+- Team Leader
 - Position: Front-End
 </details>
 
@@ -117,7 +110,7 @@ https://app.gitbook.com/invite/CDR1SteahUJC4tcBFX1v/bG5R333DiSgRMOZIdHjP
     
 14. POSITION
     
-    Front : 정후, 현주
+    Front : ~~정후,~~ 현주
     
     Back : 혜련
     
