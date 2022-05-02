@@ -40,26 +40,26 @@
 https://app.gitbook.com/invite/CDR1SteahUJC4tcBFX1v/bG5R333DiSgRMOZIdHjP
 
 # We Are👉🏻 
-<details>
-<summary>이현주</summary>
+~~이정후~~
+
+- ~~Team Leader~~
+- ~~Position: Front-End~~
+
+
+이현주
 
 - Team Leader
 - Position: Front-End
-</details>
 
-<details>
-<summary>박경선</summary>
+박경선
 
 - Team Member
 - Position: Full-Stack
-</details>
 
-<details>
-<summary>최혜련</summary>
+최혜련
 
 - Team Member
 - Position: Back-End
-</details>
 
 # 🔥TEAM RULE🔥
 <details>
